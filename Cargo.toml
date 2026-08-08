@@ -1,0 +1,19 @@
+[package]
+name = "ms-crtd"
+version = "0.1.0-dev"
+edition = "2021"
+license = "MIT"
+authors = ["zevs"]
+description = "AD-CS certificate template parser + ESC1-ESC15 static-analysis findings"
+repository = "https://github.com/zevs/ms-crtd"
+keywords = ["adcs", "certificate", "template", "esc", "ad"]
+categories = ["parsing", "authentication"]
+
+[dependencies]
+bitflags = "2"
+thiserror = "2"
+hex = "0.4"
+
+[lib]
+name = "ms_crtd"
+path = "src/lib.rs"
