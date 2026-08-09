@@ -4,10 +4,13 @@ version = "0.1.0-dev"
 edition = "2021"
 license = "MIT"
 authors = ["zevs"]
-description = "AD-CS certificate template parser + ESC1-ESC15 static-analysis findings"
-repository = "https://github.com/zevs/ms-crtd"
-keywords = ["adcs", "certificate", "template", "esc", "ad"]
-categories = ["parsing", "authentication"]
+description = "AD CS certificate-template parser and Certified Pre-Owned ESC1-ESC15 static-analysis engine"
+readme = "README.md"
+repository = "https://github.com/icedracon/ms-crtd"
+homepage = "https://github.com/icedracon/ms-crtd"
+documentation = "https://docs.rs/ms-crtd"
+keywords = ["active-directory", "adcs", "certificate-template", "esc", "kerberos"]
+categories = ["authentication", "parser-implementations"]
 
 [dependencies]
 bitflags = "2"
