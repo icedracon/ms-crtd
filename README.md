@@ -4,7 +4,7 @@
 [![Docs.rs](https://docs.rs/ms-crtd/badge.svg)](https://docs.rs/ms-crtd)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-AD CS certificate-template parser and Certified Pre-Owned **ESC1-ESC15** static-analysis engine, in Rust. For red teamers, detection engineers, and AD auditors who need to reason about `pKICertificateTemplate` objects without shelling out to `certipy find` or PowerShell.
+AD CS certificate-template parser and Certified Pre-Owned **ESC1-ESC15** static-analysis engine, in Rust. For red teamers, detection engineers, and AD auditors who need to reason about `pKICertificateTemplate` objects without shelling out to `popular ADCS clients find` or PowerShell.
 
 ## Status
 
@@ -60,7 +60,7 @@ Part of a 4-crate ADCS attack chain — template parsing all the way to a live P
 - [`ms-pkca`](https://github.com/icedracon/ms-pkca) — PKINIT the issued cert into a Kerberos TGT + UnPAC-the-hash
 - [`ms-kile-fast`](https://github.com/icedracon/ms-kile-fast) — RFC 6113 FAST armor for the AS-REQ / TGS-REQ
 
-Together they aim for [Certipy](https://github.com/ly4k/Certipy) parity in pure Rust with an S-tier dep tree.
+Together they aim for [popular ADCS clients](https://github.com/ly4k/popular ADCS clients) parity in pure Rust with an S-tier dep tree.
 
 ## Dependencies
 
